@@ -1,13 +1,13 @@
 # 🐍 Calculadora Simples em Python
 
 Uma aplicação educacional moderna e interativa desenvolvida para quem está dando os primeiros passos no aprendizado de programação. O projeto ensina a construir uma calculadora em **Python** que realiza as quatro operações matemáticas básicas, oferecendo uma experiência prática com **terminal interativo em tempo real** e **interface gráfica inspirada no iPhone (iOS)**.
-> 🌐 **Link da Aplicação no Ar:** [https://calculatora-py-iniciantes.netlify.app](https://calculatora-py-iniciantes.netlify.app
+> 🌐 **Link da Aplicação no Ar:** https://calculatora-py-iniciantes.netlify.app
 ---
 
 ## 📌 Sumário
 
 - [Visão Geral](#-visão-geral)
-- [Contexto: Imersão IA (Alura & Google)](#-contexto-imersão-ia-alura--google)
+- [Contexto: Imersão IA (Alura & Google for Startups)](#-contexto-imersão-ia-alura--google)
 - [Engenharia de Prompt: Do Inicial ao Avançado](#-engenharia-de-prompt-do-inicial-ao-avançado)
 - [Funcionalidades Principais](#-funcionalidades-principais)
 - [Código-Fonte em Python (`calculadora.py`)](#-código-fonte-em-python-calculadorapy)
@@ -33,9 +33,9 @@ Ao aprender a programar, criar uma calculadora é um dos exercícios mais eficaz
 
 ---
 
-## 🎓 Contexto: Imersão IA (Alura & Google)
+## 🎓 Contexto: Imersão IA (Alura & Google for Startups)
 
-Este projeto foi desenvolvido como o **Desafio 1 (Individual)** proposto para os alunos durante a **Imersão de Engenharia de Software com IA**, promovida pela **Alura** em parceria oficial com o **Google**.
+Este projeto foi desenvolvido como o **Desafio 1 (Individual)** proposto para os alunos durante a **Imersão de Engenharia de Software com IA**, promovida pela **Alura** em parceria oficial com o **Google for Startups**.
 
 O objetivo do desafio foi explorar o potencial do **Google AI Studio** como ferramenta de co-criação e engenharia de software acelerada por Inteligência Artificial, indo além de um simples script de terminal e transformando um exercício básico de lógica em uma **aplicação educacional interativa completa**, com interface gráfica moderna e recursos visuais de aprendizado.
 
