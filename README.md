@@ -205,6 +205,11 @@ print("Fim do cálculo. Obrigado por usar a calculadora!")
 
 ## 🎨 Interface Gráfica e Ambientes de Teste
 
+<img width="1055" height="906" alt="image" src="https://github.com/user-attachments/assets/1f22f46d-0792-4273-9c34-5475e630f3e7" />
+<img width="1297" height="866" alt="image" src="https://github.com/user-attachments/assets/586f2a62-aed7-4b02-a4e6-7f1786d3fac0" />
+<img width="1225" height="863" alt="image" src="https://github.com/user-attachments/assets/d08ba493-3199-4f0a-a594-7a0545f19aad" />
+
+
 A aplicação web disponibiliza dois modos de interação:
 
 | Modo | Descrição | Estilo Visual |
