@@ -1,7 +1,7 @@
 # 🐍 Calculadora Simples em Python
 
 Uma aplicação educacional moderna e interativa desenvolvida para quem está dando os primeiros passos no aprendizado de programação. O projeto ensina a construir uma calculadora em **Python** que realiza as quatro operações matemáticas básicas, oferecendo uma experiência prática com **terminal interativo em tempo real** e **interface gráfica inspirada no iPhone (iOS)**.
-
+> 🌐 **Link da Aplicação no Ar:** [https://calculatora-py-iniciantes.netlify.app](https://calculatora-py-iniciantes.netlify.app
 ---
 
 ## 📌 Sumário
@@ -205,6 +205,7 @@ print("Fim do cálculo. Obrigado por usar a calculadora!")
 
 ## 🎨 Interface Gráfica e Ambientes de Teste
 
+
 <img width="1055" height="906" alt="image" src="https://github.com/user-attachments/assets/1f22f46d-0792-4273-9c34-5475e630f3e7" />
 <img width="1297" height="866" alt="image" src="https://github.com/user-attachments/assets/586f2a62-aed7-4b02-a4e6-7f1786d3fac0" />
 <img width="1225" height="863" alt="image" src="https://github.com/user-attachments/assets/d08ba493-3199-4f0a-a594-7a0545f19aad" />
@@ -370,6 +371,66 @@ Abra o seu navegador de internet favorito (Chrome, Edge, Firefox, Safari) e aces
 - **Solução:** O Vite automaticamente oferecerá outra porta (ex: `http://localhost:3001`). Basta acessar o endereço informado no seu terminal.
 
 ---
+
+## 🚀 Como Fazer o Deploy da Aplicação no Ar (Grátis)
+
+Como esta aplicação é construída com **Vite + React + Tailwind CSS**, ela gera arquivos estáticos ultra-leves na pasta `dist/` ao ser compilada. Você pode colocá-la no ar gratuitamente em menos de 2 minutos para compartilhar com amigos, professores ou recrutadores.
+
+### 🌟 Opção 1: Vercel (Recomendada e Mais Rápida - 1 minuto)
+
+A [Vercel](https://vercel.com) detecta automaticamente projetos Vite e configura o deploy contínuo integrado ao seu GitHub:
+
+1. Suba o repositório para a sua conta no **GitHub**.
+2. Acesse [vercel.com](https://vercel.com) e faça login com sua conta do GitHub.
+3. No painel da Vercel, clique no botão **"Add New..."** e selecione **"Project"**.
+4. Localize o repositório da sua calculadora na lista e clique em **"Import"**.
+5. As configurações padrão já estarão perfeitamente preenchidas:
+   - **Framework Preset:** `Vite`
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+6. Clique no botão azul **"Deploy"**.
+7. Em cerca de 30 segundos sua aplicação estará no ar com link público HTTPS (ex: `https://calculadora-python-ios.vercel.app`) e se atualizará automaticamente a cada `git push`!
+
+---
+
+### ⚡ Opção 2: Netlify (Via Git ou Arrastar e Soltar)
+
+A [Netlify](https://www.netlify.com) também oferece hospedagem gratuita com SSL e CDN global:
+
+#### Modo A: Conectando com o GitHub
+1. Acesse [netlify.com](https://www.netlify.com) e crie sua conta com o GitHub.
+2. Clique em **"Add new site"** > **"Import an existing project"**.
+3. Selecione o **GitHub** e escolha o repositório da calculadora.
+4. Mantenha os comandos padrão:
+   - **Build command:** `npm run build`
+   - **Publish directory:** `dist`
+5. Clique em **"Deploy site"**.
+
+#### Modo B: Arrastar e Soltar (Sem nem precisar conectar conta)
+1. No seu terminal local, execute:
+   ```bash
+   npm run build
+   ```
+   Isso gerará a pasta `dist/` dentro do projeto.
+2. Acesse [app.netlify.com/drop](https://app.netlify.com/drop).
+3. Arraste e solte a pasta `dist/` diretamente na área pontilhada da tela. O site vai ao ar imediatamente!
+
+---
+
+### 🐙 Opção 3: GitHub Pages
+
+Para publicar diretamente dentro do próprio repositório no GitHub:
+
+1. No arquivo `vite.config.ts`, defina a propriedade `base` com o nome do seu repositório:
+   ```ts
+   export default defineConfig({
+     base: '/nome-do-seu-repositorio/',
+     // ... demais configurações
+   });
+   ```
+2. No seu repositório no GitHub, acesse a aba **Settings** > **Pages**.
+3. Em **Build and deployment** > **Source**, selecione **GitHub Actions**.
+4. Escolha o template padrão de **Static HTML** ou configure um workflow do Vite para fazer o build e deploy automatizado no branch `gh-pages`.
 
 ## 📁 Estrutura do Projeto
 
