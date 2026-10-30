@@ -52,7 +52,7 @@ Este foi o prompt inicial utilizado no **Google AI Studio** para solicitar a cri
 Quero criar uma calculadora simples em Python que realize as quatro operações matemáticas básicas. Estou começando a aprender programação, então gere um código simples e organizado, com explicações sobre seus principais componentes. O design da calculadora deve ser como modelo do iPhone (iOS).
 ```
 
-### 2. Prompt Completo e Otimizado (Prompt Master)
+### 2. Prompt Completo e Otimizado
 Se você quiser reproduzir exatamente esta aplicação web completa em um único comando no **Google AI Studio**, utilize este prompt detalhado com técnicas avançadas de Engenharia de Prompt (definição de persona, escopo técnico, restrições e diretrizes de design):
 
 ```markdown
