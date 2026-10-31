@@ -1,7 +1,7 @@
 # 🐍 Calculadora Simples em Python
 
 Uma aplicação educacional moderna e interativa desenvolvida para quem está dando os primeiros passos no aprendizado de programação. O projeto ensina a construir uma calculadora em **Python** que realiza as quatro operações matemáticas básicas, oferecendo uma experiência prática com **terminal interativo em tempo real** e **interface gráfica inspirada no iPhone (iOS)**.
-> 🌐 **Link da Aplicação no Ar:** https://calc-py-deafio02.netlify.app
+> 🌐 **Link da Aplicação no Ar:** https://calculatora-py-iniciantes.netlify.app
 ---
 
 ## 📌 Sumário
