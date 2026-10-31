@@ -194,7 +194,9 @@ print("Fim do cálculo. Obrigado por usar a calculadora!")
 ### 2. `float()` — Conversão Numérica (Casting)
 - **Função:** Converte a string capturada em um número de ponto flutuante (decimal).
 - **Vantagem:** Permite que a calculadora faça contas com números inteiros (ex: `10`) e quebrados (ex: `7.5`).
-- **Dica:** Em Python utiliza-se **ponto** (`.`) para decimais, e não vírgula.
+- **Regra Fundamental do Python:** Em Python nativo, números decimais utilizam obrigatoriamente **ponto** (`5.5`) e não vírgula (`5,5`). No terminal, tentar executar `float("5,5")` dispara o erro `ValueError: could not convert string to float: '5,5'`.
+- **Por que a interface web aceita vírgula?** Por uma decisão de *User Experience (UX)*: para garantir acessibilidade em teclados no padrão brasileiro (ABNT) e evitar frustrações, o simulador web e o teclado virtual da aplicação tratam a entrada automaticamente convertendo vírgula em ponto (`val.replace(",", ".")`).
+- **Por que o script `calculadora.py` não tem isso por padrão?** O script base foi intencionalmente mantido 100% elementar e didático para iniciantes na primeira aula de lógica de programação (usando apenas o básico `float(input())`). Tornar o script tolerante a vírgulas no terminal do computador é exatamente a proposta pedagógica do **Desafio Prático 2**!
 
 ### 3. `if`, `elif` e `else` — Controle de Fluxo
 - **`if` (se):** Avalia a primeira condição. Se verdadeira, executa o bloco interno.
@@ -492,6 +494,7 @@ Após dominar as quatro operações básicas, tente implementar estas melhorias 
    - Utilize o operador `**` (ex: `2 ** 3 = 8`).
 2. **Suporte a Vírgulas Decimais**:
    - Utilize `.replace(",", ".")` no texto capturado pelo `input()` para permitir que o usuário digite tanto `5.5` quanto `5,5`.
+   - 💡 *Por que este desafio existe se a interface web já aceita vírgula?* A interface web e o simulador deste projeto contam com tratamento automático de UX para comodidade no navegador. No entanto, o script Python puro (`calculadora.py`) executado diretamente no terminal do seu computador com `python calculadora.py` ainda usa `float(input())` nativo e trava com `ValueError` ao receber `5,5`. O desafio é justamente replicar no seu código Python essa mesma resiliência da aplicação web!
 3. **Formatação de Duas Casas Decimais**:
    - Formate a saída para divisões periódicas usando `{resultado:.2f}` dentro da f-string (ex: `10 / 3` resultará em `3.33`).
 

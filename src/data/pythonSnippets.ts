@@ -221,8 +221,8 @@ export const CHALLENGES = [
   {
     id: "virgula",
     title: "Desafio 2: Aceitar Vírgula ou Ponto Decimal",
-    desc: "No Brasil usamos '5,5', mas o Python espera '5.5'. Como aceitar vírgula sem dar erro?",
-    hint: "Use o método .replace(',', '.') na string digitada antes de converter para float().",
+    desc: "No Brasil usamos '5,5', mas o Python puro espera '5.5'. Como aceitar vírgula sem dar ValueError no terminal?",
+    hint: "A interface web já trata isso por conveniência de UX, mas o script 'calculadora.py' no terminal ainda usa float(input()) puro e quebra ao digitar vírgula. Use .replace(',', '.') antes da conversão!",
     solution: `entrada = input("Digite o número: ").replace(",", ".")
 num1 = float(entrada)`,
   },
