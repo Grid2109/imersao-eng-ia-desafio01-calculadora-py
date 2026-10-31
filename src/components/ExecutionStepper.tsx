@@ -23,7 +23,7 @@ const STEPPER_DATA: Step[] = [
   },
   {
     stepNumber: 2,
-    lineNumber: 21,
+    lineNumber: 20,
     codeLine: 'operacao = input("Escolha a operação (+, -, *, /): ").strip()',
     explanation:
       "O usuário escolhe e digita a operação de multiplicação '*'. O Python armazena como texto (string).",
@@ -34,7 +34,7 @@ const STEPPER_DATA: Step[] = [
   },
   {
     stepNumber: 3,
-    lineNumber: 22,
+    lineNumber: 21,
     codeLine: 'num2 = float(input("Digite o segundo número: "))',
     explanation:
       "O usuário digita '4'. A função float() transforma em 4.0 e grava na variável num2.",
@@ -46,7 +46,7 @@ const STEPPER_DATA: Step[] = [
   },
   {
     stepNumber: 4,
-    lineNumber: 25,
+    lineNumber: 24,
     codeLine: 'if operacao == "+":',
     explanation:
       "O Python verifica a 1ª condição: '*' é igual a '+'? O resultado é Falso (False), então o Python pula o bloco da soma.",
@@ -59,7 +59,7 @@ const STEPPER_DATA: Step[] = [
   },
   {
     stepNumber: 5,
-    lineNumber: 29,
+    lineNumber: 28,
     codeLine: 'elif operacao == "-":',
     explanation:
       "O Python avalia a 2ª condição: '*' é igual a '-'? Também é Falso (False), então pula a subtração.",
@@ -72,7 +72,7 @@ const STEPPER_DATA: Step[] = [
   },
   {
     stepNumber: 6,
-    lineNumber: 33,
+    lineNumber: 32,
     codeLine: 'elif operacao == "*":',
     explanation:
       "O Python avalia a 3ª condição: '*' é igual a '*'? Verdadeiro (True)! O interpretador entra dentro deste bloco.",
@@ -85,7 +85,7 @@ const STEPPER_DATA: Step[] = [
   },
   {
     stepNumber: 7,
-    lineNumber: 34,
+    lineNumber: 33,
     codeLine: "resultado = num1 * num2",
     explanation:
       "O Python calcula 12.5 * 4.0, resultando em 50.0, e armazena na nova variável 'resultado'.",
@@ -98,7 +98,7 @@ const STEPPER_DATA: Step[] = [
   },
   {
     stepNumber: 8,
-    lineNumber: 35,
+    lineNumber: 34,
     codeLine: 'print(f"\\nResultado: {num1} * {num2} = {resultado}")',
     explanation:
       "A f-string substitui cada chave pelo seu valor atual da memória e imprime na tela: 'Resultado: 12.5 * 4.0 = 50.0'. O restante do elif/else é ignorado!",

@@ -134,7 +134,7 @@ export const BASIC_COMPONENTS_EXPLANATION: CodeComponentExplanation[] = [
     name: "A função input()",
     tag: "Entrada de Dados",
     badgeColor: "bg-blue-900/40 text-blue-300 border-blue-700/50",
-    lines: [12, 21, 22],
+    lines: [12, 20, 21],
     shortDesc: "Pausa o programa e espera o usuário digitar algo pelo teclado no terminal.",
     deepExplanation:
       "Em Python, a função input() exibe uma mensagem na tela e aguarda o usuário digitar um valor e pressionar 'Enter'. Qualquer dado capturado por input() sempre chega ao Python no formato de TEXTO (string / str), mesmo que você digite apenas algarismos como '10'.",
@@ -148,7 +148,7 @@ export const BASIC_COMPONENTS_EXPLANATION: CodeComponentExplanation[] = [
     name: "Conversão com float()",
     tag: "Tipagem / Cast",
     badgeColor: "bg-emerald-900/40 text-emerald-300 border-emerald-700/50",
-    lines: [12, 22],
+    lines: [12, 21],
     shortDesc: "Transforma a string recebida do teclado em um número com casas decimais.",
     deepExplanation:
       "Python possui diferentes tipos de dados. 'int' representa números inteiros (como 1, 42, -7). Já 'float' representa números decimais (como 3.14, 0.5, 10.0). Usamos float(input(...)) porque uma calculadora deve conseguir somar tanto 10 quanto 4.75 sem quebrar.",
@@ -162,7 +162,7 @@ export const BASIC_COMPONENTS_EXPLANATION: CodeComponentExplanation[] = [
     name: "Condicionais: if, elif, else",
     tag: "Controle de Fluxo",
     badgeColor: "bg-amber-900/40 text-amber-300 border-amber-700/50",
-    lines: [25, 29, 33, 37, 46],
+    lines: [24, 28, 32, 36, 44],
     shortDesc: "Permite ao Python tomar decisões lógicas dependendo do que o usuário digitou.",
     deepExplanation:
       "'if' (se) testa a primeira condição. Se for verdadeira, executa o bloco indentado. Se não for, passa para os 'elif' (senão se), que testam outras opções em sequência. O 'else' (senão) é o plano de contingência final: só executa se nenhuma das opções anteriores tiver sido satisfeita.",
@@ -196,7 +196,7 @@ else:
     name: "F-Strings (Formatação de Texto)",
     tag: "Saída Elegante",
     badgeColor: "bg-purple-900/40 text-purple-300 border-purple-700/50",
-    lines: [27, 31, 35, 43],
+    lines: [26, 30, 34, 42],
     shortDesc: "Permite inserir variáveis diretamente dentro do texto usando chaves { }.",
     deepExplanation:
       "Introduzidas no Python 3.6, as f-strings (format strings) são a forma mais moderna e legível de juntar texto com variáveis. Basta colocar a letra 'f' antes das aspas de abertura e colocar as variáveis entre chaves {}.",

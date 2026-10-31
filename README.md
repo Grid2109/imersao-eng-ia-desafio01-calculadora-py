@@ -1,13 +1,23 @@
 # 🐍 Calculadora Simples em Python
 
 Uma aplicação educacional moderna e interativa desenvolvida para quem está dando os primeiros passos no aprendizado de programação. O projeto ensina a construir uma calculadora em **Python** que realiza as quatro operações matemáticas básicas, oferecendo uma experiência prática com **terminal interativo em tempo real** e **interface gráfica inspirada no iPhone (iOS)**.
-> 🌐 **Link da Aplicação no Ar:** https://calculatora-py-iniciantes.netlify.app
+
+<p align="left">
+  <a href="https://calculatora-py-iniciantes.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Acessar_Aplicação-Online_no_Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Deploy no Netlify">
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3">
+  <img src="https://img.shields.io/badge/Design-iPhone_iOS-black?style=for-the-badge&logo=apple&logoColor=white" alt="iOS Design">
+</p>
+
+> 🌐 **Link da Aplicação no Ar:** [https://calculatora-py-iniciantes.netlify.app](https://calculatora-py-iniciantes.netlify.app)
+
 ---
 
 ## 📌 Sumário
 
 - [Visão Geral](#-visão-geral)
-- [Contexto: Imersão IA (Alura & Google for Startups)](#-contexto-imersão-ia-alura--google)
+- [Contexto: Imersão IA (Alura & Google)](#-contexto-imersão-ia-alura--google)
 - [Engenharia de Prompt: Do Inicial ao Avançado](#-engenharia-de-prompt-do-inicial-ao-avançado)
 - [Funcionalidades Principais](#-funcionalidades-principais)
 - [Código-Fonte em Python (`calculadora.py`)](#-código-fonte-em-python-calculadorapy)
@@ -16,6 +26,7 @@ Uma aplicação educacional moderna e interativa desenvolvida para quem está da
 - [Como Clonar o Repositório do GitHub](#-como-clonar-o-repositório-do-github)
 - [Como Executar o Script Python no seu Computador](#-como-executar-o-script-python-no-seu-computador)
 - [Como Executar a Aplicação Web Interativa](#-como-executar-a-aplicação-web-interativa-calculadora-ios--terminal)
+- [Como Fazer o Deploy da Aplicação no Ar](#-como-fazer-o-deploy-da-aplicação-no-ar-grátis)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Desafios Práticos para Evoluir](#-desafios-práticos-para-evoluir)
 - [Licença](#-licença)
@@ -33,9 +44,9 @@ Ao aprender a programar, criar uma calculadora é um dos exercícios mais eficaz
 
 ---
 
-## 🎓 Contexto: Imersão IA (Alura & Google for Startups)
+## 🎓 Contexto: Imersão IA (Alura & Google)
 
-Este projeto foi desenvolvido como o **Desafio 1 (Individual)** proposto para os alunos durante a **Imersão de Engenharia de Software com IA**, promovida pela **Alura** em parceria oficial com o **Google for Startups**.
+Este projeto foi desenvolvido como o **Desafio 1 (Individual)** proposto para os alunos durante a **Imersão de Engenharia de Software com IA**, promovida pela **Alura** em parceria oficial com o **Google**.
 
 O objetivo do desafio foi explorar o potencial do **Google AI Studio** como ferramenta de co-criação e engenharia de software acelerada por Inteligência Artificial, indo além de um simples script de terminal e transformando um exercício básico de lógica em uma **aplicação educacional interativa completa**, com interface gráfica moderna e recursos visuais de aprendizado.
 
@@ -52,7 +63,7 @@ Este foi o prompt inicial utilizado no **Google AI Studio** para solicitar a cri
 Quero criar uma calculadora simples em Python que realize as quatro operações matemáticas básicas. Estou começando a aprender programação, então gere um código simples e organizado, com explicações sobre seus principais componentes. O design da calculadora deve ser como modelo do iPhone (iOS).
 ```
 
-### 2. Prompt Completo e Otimizado
+### 2. Prompt Completo e Otimizado (Prompt Master)
 Se você quiser reproduzir exatamente esta aplicação web completa em um único comando no **Google AI Studio**, utilize este prompt detalhado com técnicas avançadas de Engenharia de Prompt (definição de persona, escopo técnico, restrições e diretrizes de design):
 
 ```markdown
@@ -205,12 +216,6 @@ print("Fim do cálculo. Obrigado por usar a calculadora!")
 
 ## 🎨 Interface Gráfica e Ambientes de Teste
 
-
-<img width="1055" height="906" alt="image" src="https://github.com/user-attachments/assets/1f22f46d-0792-4273-9c34-5475e630f3e7" />
-<img width="1297" height="866" alt="image" src="https://github.com/user-attachments/assets/586f2a62-aed7-4b02-a4e6-7f1786d3fac0" />
-<img width="1225" height="863" alt="image" src="https://github.com/user-attachments/assets/d08ba493-3199-4f0a-a594-7a0545f19aad" />
-
-
 A aplicação web disponibiliza dois modos de interação:
 
 | Modo | Descrição | Estilo Visual |
@@ -288,10 +293,12 @@ O repositório já inclui o script em Python pronto para ser executado no termin
 python --version
 # (ou py --version)
 
-# Execute o script da calculadora
+# Execute o script da calculadora básica:
 python calculadora.py
-# Caso dê erro de comando não encontrado, tente:
-py calculadora.py
+# (Caso dê erro de comando não encontrado no Windows, tente: py calculadora.py)
+
+# Para executar a versão modular com funções e menu:
+python calculadora_modular.py
 ```
 
 #### 🍎 No macOS (Terminal):
@@ -299,8 +306,11 @@ py calculadora.py
 # Verifique a versão do Python 3
 python3 --version
 
-# Execute o script da calculadora
+# Execute o script da calculadora básica:
 python3 calculadora.py
+
+# Ou a versão modular:
+python3 calculadora_modular.py
 ```
 
 #### 🐧 No Linux (Terminal Bash / Zsh):
@@ -308,8 +318,11 @@ python3 calculadora.py
 # Verifique a versão
 python3 --version
 
-# Execute o script da calculadora
+# Execute o script da calculadora básica:
 python3 calculadora.py
+
+# Ou a versão modular:
+python3 calculadora_modular.py
 ```
 
 ---
@@ -319,14 +332,20 @@ python3 calculadora.py
 Se você quiser rodar a **interface gráfica interativa completa** (com o simulador visual no estilo iPhone, console CLI em tempo real e visualizador de memória):
 
 ### Pré-requisito: Node.js
-A aplicação web foi desenvolvida com **React 19**, **Vite** e **Tailwind CSS**. É necessário ter o **Node.js (versão 18 ou superior)** instalado.
+A aplicação web foi desenvolvida com **React 19**, **Vite (v8.x)** e **Tailwind CSS**. De acordo com a documentação oficial do Vite, é necessário ter o **Node.js (versão 20.19+ ou 22.12+)** instalado (recomendamos a versão **Node.js 22 LTS**):
 
-- **Windows**: Baixe o instalador LTS em [nodejs.org](https://nodejs.org) ou instale via PowerShell: `winget install OpenJS.NodeJS`
-- **macOS**: Instale via Homebrew: `brew install node` ou baixe o pacote `.pkg` no [nodejs.org](https://nodejs.org)
+- **Windows**: Baixe o instalador LTS (Node 22 LTS) em [nodejs.org](https://nodejs.org) ou instale via PowerShell: `winget install OpenJS.NodeJS.LTS`
+- **macOS**: Instale via Homebrew: `brew install node@22` ou baixe o pacote `.pkg` no [nodejs.org](https://nodejs.org)
 - **Linux (Ubuntu/Debian)**:
   ```bash
-  curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+  # Instalação do Node.js 22 LTS via repositório oficial NodeSource:
+  curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
   sudo apt install -y nodejs
+  ```
+- **Verificação no terminal**:
+  ```bash
+  node -v   # Deve exibir v20.19.0+ ou v22.12.0+ (ex: v22.23.x)
+  npm -v    # Deve exibir v10.x ou superior
   ```
 
 ---
@@ -395,6 +414,8 @@ A [Vercel](https://vercel.com) detecta automaticamente projetos Vite e configura
 
 ### ⚡ Opção 2: Netlify (Via Git ou Arrastar e Soltar)
 
+> 🚀 **Deploy Oficial deste Projeto:** [https://calculatora-py-iniciantes.netlify.app](https://calculatora-py-iniciantes.netlify.app)
+
 A [Netlify](https://www.netlify.com) também oferece hospedagem gratuita com SSL e CDN global:
 
 #### Modo A: Conectando com o GitHub
@@ -432,10 +453,13 @@ Para publicar diretamente dentro do próprio repositório no GitHub:
 3. Em **Build and deployment** > **Source**, selecione **GitHub Actions**.
 4. Escolha o template padrão de **Static HTML** ou configure um workflow do Vite para fazer o build e deploy automatizado no branch `gh-pages`.
 
+---
+
 ## 📁 Estrutura do Projeto
 
 ```text
-├── calculadora.py                 # Script Python independente para rodar no terminal
+├── calculadora.py                 # Script Python básico (4 operações) para rodar no terminal
+├── calculadora_modular.py         # Script Python modular com funções (def) e menu em loop (while)
 ├── index.html                     # Ponto de entrada HTML da aplicação web
 ├── metadata.json                  # Metadados do projeto
 ├── package.json                   # Dependências e scripts do Node.js
@@ -447,14 +471,15 @@ Para publicar diretamente dentro do próprio repositório no GitHub:
     ├── main.tsx                   # Inicialização do React 19
     ├── index.css                  # Estilos globais e Tailwind CSS
     ├── data/
-    │   └── pythonSnippets.ts      # Códigos Python, desafios e explicações
+    │   └── pythonSnippets.ts      # Códigos Python, desafios e mapeamento de componentes
     └── components/
         ├── InteractiveTerminal.tsx # Calculadora estilo iOS e Console CLI
         ├── CodeDisplay.tsx        # Visualizador de código com syntax highlight
         ├── ComponentExplainer.tsx # Explicação pedagógica dos componentes
         ├── ExecutionStepper.tsx   # Simulador visual de memória e condicionais
         ├── ChallengesSection.tsx  # Desafios práticos com dicas e soluções
-        └── HowToRunGuide.tsx      # Guia de execução passo a passo
+        ├── HowToRunGuide.tsx      # Guia de execução passo a passo no computador
+        └── PromptEngineeringGuide.tsx # Guia de Engenharia de Prompt e Contexto Alura/Google
 ```
 
 ---

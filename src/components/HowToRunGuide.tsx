@@ -73,6 +73,36 @@ export const HowToRunGuide: React.FC = () => {
           </p>
         </div>
       </div>
+
+      {/* Deploy Section */}
+      <div className="mt-5 pt-4 border-t border-neutral-800/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs bg-gradient-to-r from-sky-950/30 to-purple-950/20 p-3.5 rounded-xl border border-sky-900/30">
+        <div>
+          <h4 className="font-semibold text-neutral-200 flex items-center gap-1.5">
+            <span className="text-emerald-400">🚀</span> Quer colocar essa calculadora web no ar (Deploy Grátis)?
+          </h4>
+          <p className="text-neutral-400 text-[11px] mt-0.5">
+            Basta subir o projeto no GitHub e importar na <strong>Vercel</strong> ou <strong>Netlify</strong>. O comando de build é <code className="text-sky-300 font-mono">npm run build</code> e a pasta de saída é <code className="text-amber-300 font-mono">dist</code>.
+          </p>
+        </div>
+        <div className="flex items-center gap-2 shrink-0">
+          <a
+            href="https://vercel.com"
+            target="_blank"
+            rel="noreferrer"
+            className="px-3 py-1.5 rounded-lg bg-white text-black font-semibold text-[11px] hover:bg-neutral-200 transition inline-flex items-center gap-1"
+          >
+            Vercel <ExternalLink className="w-3 h-3" />
+          </a>
+          <a
+            href="https://netlify.com"
+            target="_blank"
+            rel="noreferrer"
+            className="px-3 py-1.5 rounded-lg bg-neutral-800 text-neutral-200 text-[11px] hover:bg-neutral-700 transition inline-flex items-center gap-1 border border-neutral-700"
+          >
+            Netlify <ExternalLink className="w-3 h-3" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
