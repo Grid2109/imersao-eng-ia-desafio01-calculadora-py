@@ -412,6 +412,8 @@ A [Vercel](https://vercel.com) detecta automaticamente projetos Vite e configura
 6. Clique no botão azul **"Deploy"**.
 7. Em cerca de 30 segundos sua aplicação estará no ar com link público HTTPS (ex: `https://calculadora-python-ios.vercel.app`) e se atualizará automaticamente a cada `git push`!
 
+> 💡 **Dica de Compatibilidade:** O projeto já inclui o arquivo `.npmrc` configurado com `legacy-peer-deps=true` para garantir que o resolvedor de pacotes da Vercel execute o `npm install` sem conflitos de dependências peer.
+
 ---
 
 ### ⚡ Opção 2: Netlify (Via Git ou Arrastar e Soltar)
