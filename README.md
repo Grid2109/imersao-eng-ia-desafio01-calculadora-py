@@ -512,6 +512,9 @@ Após dominar as quatro operações básicas, tente implementar estas melhorias 
 
 ---
 
-## 📄 Licença
+## 🤝 Créditos e Parceria
 
-Este projeto é de código aberto sob a licença [Apache 2.0](LICENSE). Sinta-se livre para utilizar, modificar e compartilhar para fins de estudo e ensino.
+Projeto desenvolvido durante a **Imersão de Engenharia de Software com IA**:
+* **Realização:** [Alura](https://www.alura.com.br) & [Google for Startups](https://startup.google.com)
+* **Ferramenta de IA:** Google AI Studio, com o modelo Gemini 3.8 Flash
+* **Desenvolvido por:** Ingrid Lira (aluna da Imersão)
