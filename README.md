@@ -229,6 +229,16 @@ Além disso, a plataforma inclui:
 - **Simulador Passo a Passo da Memória**: Mostra a criação de cada variável e a avaliação booleana (`True`/`False`) de cada condição `if/elif`.
 - **Modo Modular**: Versão do código estruturada em funções (`def somar()`, `def dividir()`, etc.) e laço de repetição contínuo (`while True`).
 
+[Deploy da Calculadora em Python para iniciantes](https://imersao-eng-ia-desafio01-calculador-chi.vercel.app)
+
+### Imagens Demonstrativas da Aplicação
+<img width="1100" height="916" alt="image" src="https://github.com/user-attachments/assets/6133dd17-3fdf-4b42-a52a-cab40e05308a" />
+<img width="1146" height="905" alt="image" src="https://github.com/user-attachments/assets/9be85e2d-9109-43a4-bc71-ef835fb5eea1" />
+<img width="1129" height="915" alt="image" src="https://github.com/user-attachments/assets/7efbff0a-efad-489c-b75b-3aac62ec452c" />
+
+
+
+
 ---
 
 ## 📥 Como Clonar o Repositório do GitHub
