@@ -274,10 +274,10 @@ Execute o comando:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU-USUARIO/calculadora-python-iniciantes.git
+git clone https://github.com/Grid2109/imersao-eng-ia-desafio01-calculadora-py.git
 
 # Entre na pasta do projeto
-cd calculadora-python-iniciantes
+cd imersao-eng-ia-desafio01-calculadora-py
 ```
 
 > 💡 **Alternativa sem Git (Download ZIP):**
